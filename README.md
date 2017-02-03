@@ -63,7 +63,7 @@ isConnected((err, connected) => {
 
 isConnected.stdout(cb) // is stdout connected to the journal
 isConnected.stderr(cb) // is stdout connected to the journal
-isConnected(cb) // same as isConnected.stdoutSync
+isConnected(cb) // same as isConnected.stdout
 ```
 
 [JOURNAL_STREAM]: http://www.dsm.fordham.edu/cgi-bin/man-cgi.pl?topic=systemd.exec
