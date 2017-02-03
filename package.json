@@ -1,6 +1,6 @@
 {
   "name": "is-connected-to-systemd-journal",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Determine if stdout or stderr is connected to the systemd journal",
   "main": "index.js",
   "scripts": {
