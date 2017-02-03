@@ -1,0 +1,28 @@
+{
+  "name": "is-connected-to-systemd-journal",
+  "version": "0.0.0",
+  "description": "Determine if stdout or stderr is connected to the systemd journal",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "keywords": [
+    "systemd",
+    "journal",
+    "journald",
+    "stdout",
+    "stderr",
+    "JOURNAL_STREAM"
+  ],
+  "author": "Bryan Burgers <bryan@burgers.io>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/bryanburgers/is-connected-to-systemd-journal.git"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  }
+}
